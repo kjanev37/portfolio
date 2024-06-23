@@ -37,7 +37,7 @@ body{
 }
 .logo{
   font-size: 35px;
-  font-family: "Gloss And Bloom", sans-serif;
+  font-family: "The Breakdown", sans-serif;
   color: var(--title-color);
   cursor: pointer;
   transition: 0.3s ease;
@@ -48,7 +48,7 @@ body{
 }
 .logo span{
   color: var(--main-color);
-  font-family: "Gloss And Bloom", sans-serif;
+  font-family: "The Breakdown", sans-serif;
 }
 .navbar a{
   font-size: 18px;
