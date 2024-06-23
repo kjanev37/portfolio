@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Playball&family=Satisfy&family=Smooch&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 25px 13% 35px;
+  padding: 15px 13% 15px;
   background-color: rgba(33, 35, 44, .3);
   backdrop-filter: blur(10px);
   display: flex;
@@ -36,19 +37,18 @@ body{
   z-index: 5;
 }
 .logo{
-  font-size: 35px;
-  font-family: "The Breakdown", sans-serif;
+  font-size: 55px;
+  font-family: "Smooch", sans-serif;
   color: var(--title-color);
   cursor: pointer;
   transition: 0.3s ease;
-  letter-spacing: 1px;
 }
 .logo:hover{
   transform: scale(1.1);
 }
 .logo span{
   color: var(--main-color);
-  font-family: "The Breakdown", sans-serif;
+  font-family: "Smooch", sans-serif;
 }
 .navbar a{
   font-size: 18px;
@@ -57,20 +57,11 @@ body{
   font-weight: 500;
   transition: 0.3s ease;
   padding-bottom: 5px;
-  /*border-bottom: 3px solid transparent;*/
 }
 .navbar a:hover,
 .navbar a.active{
   color: var(--main-color);
-  /*border-bottom: 3px solid var(--main-color);*/
 }
-/*----------------------------------------------------------*/
-#menu-icon{
-  font-size: 60px;
-  color: var(--main-color);
-  display: none;
-}
-/*----------------------------------------------------------*/
 section{
   padding: 80px 10% 80px 14%;
 }
@@ -142,7 +133,6 @@ section{
   display: inline-block;
   padding: 10px 25px;
   background: var(--main-color);
-  /*box-shadow: 0 0 10px var(--main-color);*/
   border-radius: 30px;
   font-size: 17px;
   color: white;
@@ -301,7 +291,6 @@ section{
   padding-top: 10px;
   border-bottom: 2px solid transparent;
 }
-
 .skills-item span:hover{
   padding-top: 10px;
   color: white;
@@ -358,7 +347,6 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*gap: 350px;*/
 }
 footer .social-icons a{
   margin-right: 20px;
